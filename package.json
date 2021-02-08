@@ -49,6 +49,7 @@
     "bitcoind-rpc": "git+https://git@github.com/marmarachain/bitcoind-rpc",
     "bitcore-lib-komodo": "git+https://git@github.com/DeckerSU/bitcore-lib-komodo",
     "body-parser": "^1.13.3",
+    "bufferutil": "~1.2.1",
     "colors": "^1.1.2",
     "commander": "^2.8.1",
     "errno": "^0.1.4",
@@ -61,12 +62,10 @@
     "semver": "^5.0.1",
     "socket.io": "^1.4.5",
     "socket.io-client": "^1.4.5",
+    "utf-8-validate": "~1.2.1",
     "zmq": "^2.14.0"
   },
-  "optionalDependencies": {
-    "bufferutil": "~1.2.1",
-    "utf-8-validate": "~1.2.1"
-  },
+  "deprecated": false,
   "devDependencies": {
     "benchmark": "1.0.0",
     "bitcore-p2p": "^1.1.0",
